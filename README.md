@@ -21,7 +21,7 @@ Api endopoints:
     -H "Content-Type: application/json" \
     -d '{"firstName": "Janush", "lastName": "Programowania"}'
    
-2. For created working time "/api/working-time/add"
+3. For created working time "/api/working-time/add"
    A. The data it accepts :
       {
         userId: string,
