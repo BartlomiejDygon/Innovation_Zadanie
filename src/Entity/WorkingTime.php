@@ -11,6 +11,8 @@ use Ramsey\Uuid\UuidInterface;
 #[ORM\Entity(repositoryClass: WorkingTimeRepository::class)]
 class WorkingTime
 {
+    public const MAX_HOURS_PER_SHIFT = 12;
+
     #[ORM\Id]
     #[ORM\Column(type: "uuid", unique: true)]
     #[ORM\GeneratedValue(strategy: "CUSTOM")]
