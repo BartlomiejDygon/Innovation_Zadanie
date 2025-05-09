@@ -12,6 +12,8 @@ use Ramsey\Uuid\UuidInterface;
 class WorkingTime
 {
     public const MAX_HOURS_PER_SHIFT = 12;
+    public const MONTHLY_NORM_OF_HOURS = 40;
+    public const HOURLY_RATE = 20;
 
     #[ORM\Id]
     #[ORM\Column(type: "uuid", unique: true)]
